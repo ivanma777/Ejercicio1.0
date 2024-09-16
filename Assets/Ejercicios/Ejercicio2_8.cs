@@ -5,28 +5,30 @@ using UnityEngine;
 public class Ejercicio2_8 : MonoBehaviour
 {
     int vida1 = 120;
-    float veneno = 0f;
+    float veneno;
     
 
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(VenenoQuita);
+        Debug.Log(VenenoQuita(0.03));
+        Debug.Log(VenenoQuita(0.06));
+        Debug.Log(VenenoQuita(0.09));
+        Debug.Log(VenenoQuita(0.12));
+        Debug.Log(VenenoQuita(0.15));
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        VenenoQuita();
-    }
+   
 
 
-    void VenenoQuita(veneno < float 0.15)
+    void VenenoQuita(float veneno)
     {
-        veneno += 0.03;
+        
         vida1 -= vida1 * veneno;
 
         Debug.log(vida1);
+        
     
     }
 
