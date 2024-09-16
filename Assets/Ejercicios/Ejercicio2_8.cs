@@ -6,6 +6,7 @@ public class Ejercicio2_8 : MonoBehaviour
 {
     int vida1 = 120;
     float veneno = 0f;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -20,9 +21,9 @@ public class Ejercicio2_8 : MonoBehaviour
     }
 
 
-    void VenenoQuita(veneno < 0,15)
+    void VenenoQuita(veneno < float 0.15)
     {
-        veneno += 0,03;
+        veneno += 0.03;
         vida1 -= vida1 * veneno;
 
         Debug.log(vida1);
