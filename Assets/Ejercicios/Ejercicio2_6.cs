@@ -13,15 +13,15 @@ public class Ejercicio2_6 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.log(velocidad);
-        Debug.log(daño);
-        Debug.log(defensa);
+        Debug.Log(velocidad);
+        Debug.Log(daño);
+        Debug.Log(defensa);
 
         media = velocidad + defensa + daño;
 
         media /= 3;
 
-        Debug.log(media);
+        Debug.Log(media);
 
     }
 

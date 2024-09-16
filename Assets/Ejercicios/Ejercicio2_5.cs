@@ -13,21 +13,21 @@ public class Ejercicio2_5 : MonoBehaviour
     {
         vidasPlayer2 = vidasPlayer3;
 
-        Debug.log(vidasPlayer3);
+        Debug.Log(vidasPlayer3);
 
         vidasPlayer3 = vidasPlayer1;
 
-        Debug.log(vidasPlayer1);
+        Debug.Log(vidasPlayer1);
 
 
         vidasPlayer1 = vidasPlayer4;
 
-        Debug.log(vidasPlayer4);
+        Debug.Log(vidasPlayer4);
 
 
         vidasPlayer4 = vidasPlayer2;
 
-        Debug.log(vidasPlayer);
+        Debug.Log(vidasPlayer2);
 
 
 

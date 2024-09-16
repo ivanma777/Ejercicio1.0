@@ -11,7 +11,7 @@ public class Ejercicio3_7 : MonoBehaviour
     void Start()
     {
         area = (basee * altura) / 2;
-        Debug.log("el area es " + area);
+        Debug.Log("el area es " + area);
     }
 
     // Update is called once per frame

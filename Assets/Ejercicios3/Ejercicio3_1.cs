@@ -9,8 +9,8 @@ public class Ejercicio3_1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.log(rango);
-        Debug.log(posicion);
+        Debug.Log(rango);
+        Debug.Log(posicion);
     }
 
     // Update is called once per frame

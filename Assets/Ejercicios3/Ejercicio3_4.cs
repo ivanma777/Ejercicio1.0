@@ -9,9 +9,9 @@ public class Ejercicio3_4 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        lvl = 32 + (9 * EXP / 5);
+        lvl = 32 + (9 * exp / 5);
 
-        Debug.log("el nivel es " + lvl);
+        Debug.Log("el nivel es " + lvl);
     }
 
     // Update is called once per frame

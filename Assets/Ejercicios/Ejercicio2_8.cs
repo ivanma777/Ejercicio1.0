@@ -1,21 +1,30 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Ejercicio2_8 : MonoBehaviour
 {
-    int vida1 = 120;
+    float vida1 = 120f;
     float veneno;
     
 
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(VenenoQuita(0.03));
-        Debug.Log(VenenoQuita(0.06));
-        Debug.Log(VenenoQuita(0.09));
-        Debug.Log(VenenoQuita(0.12));
-        Debug.Log(VenenoQuita(0.15));
+        VenenoQuita(0.03f);
+        Debug.Log(vida1); 
+        VenenoQuita(0.06f);
+        Debug.Log(vida1); 
+        VenenoQuita(0.09f);
+        Debug.Log(vida1); 
+        VenenoQuita(0.12f);
+        Debug.Log(vida1); 
+        VenenoQuita(0.15f);
+        Debug.Log(vida1); 
+       
+
+       
     }
 
     // Update is called once per frame
@@ -27,7 +36,7 @@ public class Ejercicio2_8 : MonoBehaviour
         
         vida1 -= vida1 * veneno;
 
-        Debug.log(vida1);
+       
         
     
     }

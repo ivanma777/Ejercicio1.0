@@ -9,11 +9,11 @@ public class Ejercicio3_5 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        longitud = 2 * 3.14 * radio;
-        area = 3.14 * radio ^ 2;
+        longitud = 2f * 3.14f * radio;
+        area = 3.14f * radio * radio;
 
-        Debug.log("la longitud es " + longitud);
-        Debug.log("la area es " + area);
+        Debug.Log("la longitud es " + longitud);
+        Debug.Log("la area es " + area);
     }
 
     // Update is called once per frame

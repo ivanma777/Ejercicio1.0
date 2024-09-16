@@ -2,16 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ejercicio3_3 : MonoBehaviour
+public class Ejercicio6_1 : MonoBehaviour
 {
-    [SerializeField] int numero;
-    int doble, triple;
+    //a)true b)true c)true d)false e)true f)true
+
+
     // Start is called before the first frame update
     void Start()
     {
-        doble = numero * 2;
-        triple = numero * 3;
-        Debug.Log("el doble es " + doble + " y el triple es " + triple);
+        
     }
 
     // Update is called once per frame

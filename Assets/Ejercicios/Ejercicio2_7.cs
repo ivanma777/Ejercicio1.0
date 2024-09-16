@@ -10,7 +10,7 @@ public class Ejercicio2_7 : MonoBehaviour
     {
         oro = 7 * 60 * 60 * 4;
         
-        Debug.log("En cuatro horas tienes " +  oro + " de oro");
+        Debug.Log("En cuatro horas tienes " +  oro + " de oro");
     }
 
     // Update is called once per frame
