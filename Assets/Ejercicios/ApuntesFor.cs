@@ -4,18 +4,14 @@ using UnityEngine;
 
 public class ApuntesFor : MonoBehaviour
 {
-    [SerializeField] int vidas;
+    
     // Start is called before the first frame update
     void Start()
     {
-        //while : mientras
-        //Bucle indeterminado
-        //for : determinadoe
-        while (vidas > 0) //Bucle (ciclo)
+        //para todos los soldados desde 0, de 1 en 1 hasta el 100
+        for (int i = 0; i < 100; i++)
         {
-            Debug.Log("sigo vivo con " + vidas);
-
-        vidas--; //vidas = vidas - 1
+            Debug.Log(i);
         }
 
     }
