@@ -36,6 +36,10 @@ public class Ejercicios4_5 : MonoBehaviour
         areaC = radio * radio * 3.14f;
 
     }
+    //float AreaCirculo()
+    //areC = radio * radio * 3.14f;
+    //return;
+    //Esto es otra forma de arreglarlo para poner directamente el metodo
     void AreaTriangulo()
     {
         areaT = (basee * altura) / 2;
