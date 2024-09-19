@@ -12,7 +12,7 @@ public class Ejercicio5_8 : MonoBehaviour
     {
         if (  H <= 59 && M <= 59 && S <= 59)
         {
-            Debug.Log("Son las " + H + ":" + M );
+            Debug.Log("Son las " + H + ":" + M + ":"+ S);
 
         }
     }
