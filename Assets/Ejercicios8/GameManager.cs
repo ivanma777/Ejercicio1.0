@@ -46,4 +46,10 @@ public class GameManager : MonoBehaviour
        
        
     }
+
+  public  void FinDeTurno(Personaje1 personaje)
+    {
+        personaje.MiTurno = false;
+        
+    }
 }
