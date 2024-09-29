@@ -12,51 +12,51 @@ public class SistemaVida : MonoBehaviour
         
     }
 
-    float RecibirCura(float cantidad) 
-    {
+    public float RecibirCura(float cantidad) 
+           {
         
-        cantidad = 10;
-        if (cantidad >= 0)
-        {
-            vidaActual = vidaInicial + cantidad;
-            return vidaActual;
+                
+                if (cantidad >= 0)
+                {
+                    vidaActual = vidaInicial + cantidad;
+                    return vidaActual;
 
-        }
-        else
+                }
+                else
         
-        {
-            vidaActual = -1f;
-            return vidaActual;
-        }
+                {
+                    vidaActual = -1f;
+                    return vidaActual;
+                }
 
         
-    }
+           }
 
-    float RecibirDanho(float danho)
-    {
-        danho = 10;
-        if (danho >= 0)
-        {
-            vidaActual = vidaInicial - danho;
-            if (vidaActual <= 0 )
+   public  float RecibirDanho(float danho)
+         {
+            
+            if (danho >= 0)
             {
-                vidaActual = 0;
-                return vidaActual;
+                vidaActual = vidaInicial - danho;
+                if (vidaActual <= 0 )
+                {
+                    vidaActual = 0;
+                    return vidaActual;
+                }
+                else
+                {
+                    return vidaActual;
+
+                }
+
             }
             else
-            {
-                return vidaActual;
 
+            {
+                vidaActual = -1f;
+                return vidaActual;
             }
 
-        }
-        else
-
-        {
-            vidaActual = -1f;
-            return vidaActual;
-        }
-
-    }
+         }
 
 }
