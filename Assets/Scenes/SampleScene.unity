@@ -151,6 +151,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed05588c86a48043bb250f2a0504b36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  personaje1: {fileID: 763857797}
+  personaje2: {fileID: 1730109125}
 --- !u!4 &190466066
 Transform:
   m_ObjectHideFlags: 0
