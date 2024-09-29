@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Personaje1 : MonoBehaviour
 {
-    
+    [SerializeField] Personaje1 enemigo;
+    [SerializeField] SistemaVida SistemaVida;
+    [SerializeField] Arma miArma;
     private string nombre;
     private int exp;
     private int vida;

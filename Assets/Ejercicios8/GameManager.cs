@@ -13,11 +13,11 @@ public class GameManager : MonoBehaviour
     {
         if (yaEjecutado == 1)
         {
-            PrepararPersonajes();
-            Debug.Log("a");
+           
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 
+                PrepararPersonajes();
                 
                 Debug.Log(personaje1.Vida + "y exp " + personaje1.Exp + " y LVL" + personaje1.CalcularNivel(personaje1.Exp));
                 Debug.Log(personaje2.Vida + "y exp " + personaje2.Exp + " y LVL" + personaje2.CalcularNivel(personaje2.Exp));
